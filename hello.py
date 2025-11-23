@@ -19,7 +19,7 @@ st.markdown("---")
 # Загрузка данных
 @st.cache_data
 def load_data():
-    return pd.read_csv('/home/bochervua/Downloads/DATA/KAGGLE/College_Marks_Dataset.csv')
+    return pd.read_csv('College_Marks_Dataset.csv')
 
 
 try:
